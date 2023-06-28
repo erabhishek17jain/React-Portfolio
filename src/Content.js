@@ -1,26 +1,26 @@
 // import images
-import Hero_person from './assets/images/Hero/person.png';
+import Hero_person from './assets/images/hero/person.png';
 
-import ps from './assets/images/Skills/ps.png';
-import reactjs from './assets/images/Skills/react.png';
-import nodejs from './assets/images/Skills/node.png';
+import ps from './assets/images/skills/ps.png';
+import reactjs from './assets/images/skills/react.png';
+import nodejs from './assets/images/skills/node.png';
 
-import services_logo1 from './assets/images/Services/logo1.png';
-import services_logo2 from './assets/images/Services/logo2.png';
-import services_logo3 from './assets/images/Services/logo3.png';
+import services_logo1 from './assets/images/services/logo1.png';
+import services_logo2 from './assets/images/services/logo2.png';
+import services_logo3 from './assets/images/services/logo3.png';
 
 import project1 from './assets/images/projects/img1.png';
 import project2 from './assets/images/projects/img2.png';
 import project3 from './assets/images/projects/img3.png';
 import person_project from './assets/images/projects/person.png';
 
-import avatar1 from './assets/images/Testimonials/avatar1.png';
-import avatar2 from './assets/images/Testimonials/avatar2.png';
-import avatar3 from './assets/images/Testimonials/avatar3.png';
-import avatar4 from './assets/images/Testimonials/avatar4.png';
+import avatar1 from './assets/images/testimonials/avatar1.png';
+import avatar2 from './assets/images/testimonials/avatar2.png';
+import avatar3 from './assets/images/testimonials/avatar3.png';
+import avatar4 from './assets/images/testimonials/avatar4.png';
 
-import Hireme_person from './assets/images/Hireme/person.png';
-import Hireme_person2 from './assets/images/Hireme/person2.png';
+import hireme_person from './assets/images/hireme/person.png';
+import hireme_person2 from './assets/images/hireme/person2.png';
 
 // import icons from react-icons
 import { GrMail } from 'react-icons/gr';
@@ -209,8 +209,8 @@ export const content = {
     hireme: {
         title: 'Hire Me',
         subtitle: 'FOR YOUR PROJECTS',
-        image1: Hireme_person,
-        image2: Hireme_person2,
+        image1: hireme_person,
+        image2: hireme_person2,
         para: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean',
         btnText: 'Hire Me',
     },
