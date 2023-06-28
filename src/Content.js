@@ -1,9 +1,19 @@
 // import images
-import Hero_person from './assets/images/hero/person.png';
+import hero_person from './assets/images/hero/person.png';
 
-import ps from './assets/images/skills/ps.png';
 import reactjs from './assets/images/skills/react.png';
+import redux from './assets/images/skills/redux.png';
+import typescript from './assets/images/skills/typescript.png';
 import nodejs from './assets/images/skills/node.png';
+import graphql from './assets/images/skills/graphql.png';
+import postman from './assets/images/skills/postman.png';
+import html from './assets/images/skills/html.png';
+import mongodb from './assets/images/skills/mongodb.png';
+import mysql from './assets/images/skills/mysql.png';
+import cpp from './assets/images/skills/cpp.png';
+import java from './assets/images/skills/java.png';
+import git from './assets/images/skills/git.png';
+import ps from './assets/images/skills/ps.png';
 
 import services_logo1 from './assets/images/services/logo1.png';
 import services_logo2 from './assets/images/services/logo2.png';
@@ -61,7 +71,7 @@ export const content = {
         LastName: 'JAIN',
         hireBtnText: 'Hire Me',
         resumeBtnText: 'Get Resume',
-        image: Hero_person,
+        image: hero_person,
         hero_content: [
             {
                 count: '6+',
@@ -78,63 +88,68 @@ export const content = {
         subtitle: 'MY TOP SKILLS',
         skills_content: [
             {
-                name: 'React js | Next js',
-                para: 'with Redux - Hooks- Material UI - Typescript - Tailwind css',
+                name: 'React js',
+                para: 'with Hooks | Material UI | Storybook | Unit testing',
                 logo: reactjs,
             },
             {
-                name: 'Node js | Express.js ',
-                para: 'with  Rest Api |  GraphQL',
-                logo: nodejs,
+                name: 'Redux | Flux',
+                para: 'with Middleware | Redux Saga | Redux Thunk',
+                logo: redux,
             },
             {
                 name: 'TypeScript | JavaScript',
-                para: 'with React & Next js & Node js',
-                logo: reactjs,
+                para: 'with React & Node js',
+                logo: typescript,
+            },
+            {
+                name: 'Node js | Express.js ',
+                para: 'with Rest Api | GraphQL',
+                logo: nodejs,
             },
             {
                 name: 'Graphql',
                 para: 'With Apollo server/client',
-                logo: reactjs,
+                logo: graphql,
             },
             {
                 name: 'Postman',
-                para: 'Automated API testing',
-                logo: reactjs,
+                para: 'with API testing',
+                logo: postman,
             },
             {
                 name: 'HTML/CSS',
-                para: 'Full stack Ecommerce App',
-                logo: reactjs,
+                para: 'with HTML5 concepts | CSS3 | SCSS | Responsive',
+                logo: html,
             },
             {
-                name: 'MongoDB developer | DBA',
-                para: 'in NodeJs & Java & Php',
-                logo: reactjs,
+                name: 'MongoDB developer',
+                para: 'with NodeJs',
+                logo: mongodb,
             },
             {
                 name: 'MySql | Oracle',
-                para: 'and relational data modeling with UML & ERD & MERISE ',
-                logo: reactjs,
+                para: 'with relational data modeling with Java & NodeJs',
+                logo: mysql,
             },
             {
                 name: 'C | C++',
-                para: 'university projects | data structures & algorithms | OOP',
-                logo: reactjs,
+                para: 'with data structures & algorithms | OOP',
+                logo: cpp,
             },
             {
                 name: 'Java',
-                para: 'Swing (Desktop Graphical User Interface)',
-                logo: reactjs,
+                para: 'with Oops | Collection | Swing',
+                logo: java,
             },
             {
                 name: 'Git | GitHub',
-                para: 'Familiar with git and github',
-                logo: reactjs,
+                para: 'with full git & github',
+                logo: git,
             },
             {
                 name: 'Adobe Photoshop',
-                para: 'Lorem ipsum text  dummy',
+                para: 'with UIUX designs',
                 logo: ps,
             },
         ],
@@ -245,13 +260,13 @@ export const content = {
             },
             {
                 text: 'erabhishek17jain',
-                icon: BsInstagram,
-                link: 'https://www.instagram.com/erabhishek17jain/',
+                icon: BsFacebook,
+                link: 'https://www.facebook.com/in/erabhishek17jain/',
             },
             {
                 text: 'erabhishek17jain',
-                icon: BsFacebook,
-                link: 'https://www.facebook.com/in/erabhishek17jain/',
+                icon: BsInstagram,
+                link: 'https://www.instagram.com/erabhishek17jain/',
             },
         ],
     },

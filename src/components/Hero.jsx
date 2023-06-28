@@ -1,8 +1,19 @@
 // import content
-import { useEffect } from "react";
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
+
+  const downloadPdf = (name) => {
+    fetch(name).then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = name;
+            alink.click();
+        })
+    })
+}
 
   return (
     <section id="home" className="overflow-hidden">
@@ -23,7 +34,7 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn mr-5">{hero.resumeBtnText}</button>
+            <button className="btn mr-5" onClick={()=>downloadPdf('AbhishekJain.pdf')}>{hero.resumeBtnText}</button>
             <button className="btn">{hero.hireBtnText}</button>
           </div>
           <div className="flex flex-col gap-10 mt-10">
