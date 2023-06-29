@@ -1,4 +1,4 @@
-import { content } from '../Content';
+import { content } from '../constants/Content';
 
 const Footer = () => {
     const { footer } = content;
