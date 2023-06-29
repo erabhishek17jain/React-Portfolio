@@ -32,9 +32,11 @@ const Projects = () => {
                         {projects.project_content.map((content, i) => (
                             <SwiperSlide key={i} className='bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit'>
                                 <img src={content.image} alt='...' />
-                                <div className='flex flex-col gap-1 mt-4' style={{ height: '300px' }}>
-                                    <h5 className='font-bold font-Poppins'>{content.title}</h5>
-                                    <div className='mt-2'>{content?.description}</div>
+                                <div className='flex flex-col gap-1 mt-4 justify-between' style={{ height: '300px' }}>
+                                    <div>
+                                        <h5 className='font-bold font-Poppins'>{content.title}</h5>
+                                        <div className='mt-2'>{content?.description}</div>
+                                    </div>
                                     <div className='flex justify-between mt-6'>
                                         <a href={content.github} className='btn mr-5'>
                                             {projects.githubText}

@@ -19,7 +19,7 @@ const Contact = () => {
                 </h4>
                 <br />
                 <div className='flex gap-10 md:flex-row flex-col'>
-                    <SendEmail />
+                    <SendEmail isTitle={false} />
                     <div className='flex-1 flex flex-col gap-5'>
                         {contact.social_media.map((content, i) => (
                             <div key={i} data-aos='fade-down' data-aos-delay={i * 400} className='flex items-center gap-2'>

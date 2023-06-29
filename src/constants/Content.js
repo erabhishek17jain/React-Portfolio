@@ -139,7 +139,7 @@ export const content = {
                         'Develop a responsive and mobile friendly website',
                         'It has much pre-design class',
                         'Anybody with just basic knowledge of HTML and CSS can start using Bootstrap.',
-                        'It is a front-end framework used for easier and faster web development.'
+                        'It is a front-end framework used for easier and faster web development.',
                     ],
                 },
                 {
@@ -178,7 +178,6 @@ export const content = {
                         'It targets all major platforms. Among the advantages of using Node.',
                         'is also fast and lightweight, and its ability to employ JavaScript code on both the frontend and backend opens up new development possibilities.',
                         'Our developer community will be significantly more efficient and cross-functional as a result of the frontend and backend flexibility, lowering development expenses.',
-                    
                     ],
                 },
                 {
@@ -203,7 +202,6 @@ export const content = {
                         'GraphQL is a powerful tool, and there are many reasons you might choose GraphQL over REST.',
                         'It enables a client to make a single HTTP request to multiple resources and receive the exact data it needs.',
                         'GraphQL offers a highly flexible approach to API development, as it allows developers to request exactly the data they need.',
-                        
                     ],
                 },
                 {
@@ -216,7 +214,6 @@ export const content = {
                         'C++ is an object-oriented programming language having some additional features like Encapsulation, Data Hiding, Data Abstraction, Inheritance, Polymorphism, etc.',
                         'C++ is an extended version of C.',
                         ' C++ is used majorly to make operating systems',
-                    
                     ],
                 },
                 {
@@ -228,7 +225,7 @@ export const content = {
                         'Java is object-oriented. This allows you to create modular programs and reusable code.',
                         'Java provides the environment to develop cloud-based applications.',
                         'Platform-friendly and independent.',
-                        'Developers use Java to construct applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, and other devices.'
+                        'Developers use Java to construct applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, and other devices.',
                     ],
                 },
                 {
@@ -241,7 +238,6 @@ export const content = {
                         'It provides comprehensive support for every application development need.',
                         'Within the database, support can be found for stored procedures, triggers, functions, views, cursors, ANSI-standard SQL, and more.',
                         'MySQL is a tool used to manage databases and servers.',
-
                     ],
                 },
             ],
@@ -280,7 +276,6 @@ export const content = {
                         'Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place.',
                         'It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then deploy your app.',
                         'Visual Studio Code has support for many languages, including Python, Java, C++, JavaScript, and more.',
-                        
                     ],
                 },
                 {
@@ -317,7 +312,6 @@ export const content = {
                         'Adobe is the industry standard because it is been at the top for a long time. It got and stayed there by continuously innovating.',
                         'Photo editing and retouching. Logos, color schemes, social media graphics, and other design elements for a brand.',
                         'By learning Photoshop you will also have a fun outlet for your creative projects, whether working on a website',
-
                     ],
                 },
             ],
@@ -363,40 +357,33 @@ export const content = {
         image: person_project,
         project_content: [
             {
-                title: 'Omjinshop',
+                title: 'OmJin Shop',
                 image: project1,
-                github: '',
-                liveUrl: '',
+                github: 'https://github.com/erabhishek17jain/MERN-Omjinshop',
+                liveUrl: 'https://omjinshop.netlify.app/',
                 description:
-                    'It is a powerful way for businesses of all sizes to reach prospects and customers. People discover, learn about, follow, and shop from brands on social media. It is a powerful way for businesses of all sizes to reach prospects and customers. People discover, learn about, follow, and shop from brands on social media. It is a powerful way for businesses of all sizes to reach prospects and customers. People discover, learn about, follow, and shop from brands on social media.',
+                    'An OmJin Shop is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service. We Use main application for user to View & Select Products, Add to Cart, Wishlist, Place Order etc. And we use Admin Panel to manage stocks and perform action once order is placeed or return request is generated.',
             },
             {
-                title: 'College Management',
-                image: project2,
-                github: '',
-                liveUrl: '',
-                description: '',
-            },
-            {
-                title: 'Burger Builder',
-                image: project3,
-                github: '',
-                liveUrl: '',
-                description: '',
+                title: 'TMU Management App',
+                image: project1,
+                github: 'https://github.com/erabhishek17jain/mern-college-management',
+                liveUrl: 'https://tmu.netlify.app/',
+                description: 'This application manages the college information, student information, placement information, various different types of event going on in our college. It also keeps track records of all the information regarding students those who are placed in the various organization. It is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely, and handle enquiries etc.',
             },
             {
                 title: 'Shopping Application',
-                image: project3,
-                github: '',
-                liveUrl: '',
-                description: '',
+                image: project1,
+                github: 'https://github.com/erabhishek17jain/react-shopping-app',
+                liveUrl: 'https://shopping.netlify.app/',
+                description: 'Shopping apps are designed to make it easy for customers to find and buy the products they need. They also allow you to purchase items faster by allowing customers to save payment info and make in-app payments by logging into an account. It is a form of electronic commerce where the buyer is directly online to the sellers computer usually via the internet. There is no intermediary service. The sale and purchase transaction is completed electronically and interactively in real-time such as Amazon.com for new books',
             },
-            {
-                title: 'ToDo Application',
-                image: project3,
-                github: '',
-                liveUrl: '',
-                description: '',
+            {   
+                title: 'Burger Builder',
+                image: project1,
+                github: 'https://github.com/erabhishek17jain/react-burger-builder',
+                liveUrl: 'https://burgerbuilder.netlify.app/',
+                description: 'A webiste to order and make a burger of your choice. You can customize our burger and place order to vendor.',
             },
         ],
     },

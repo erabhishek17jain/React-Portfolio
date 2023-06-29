@@ -2,7 +2,7 @@ import { useState, createElement } from 'react';
 import { content } from '../constants/Content';
 import Modal from 'react-modal';
 import SendEmail from './SendEmail';
-import { customStyles } from '../services/Services';
+import { customStyles } from '../services/services';
 
 Modal.setAppElement('#root');
 
@@ -71,7 +71,7 @@ const Hero = () => {
                 </div>
             </div>
             <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={customStyles}>
-                <SendEmail />
+                <SendEmail closeModal={closeModal} />
             </Modal>
         </section>
     );

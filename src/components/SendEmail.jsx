@@ -6,6 +6,7 @@ import { Toaster } from 'react-hot-toast';
 
 const SendEmail = (props) => {
     const form = useRef();
+    const { isTitle = true, closeModal } = props;
     const { emails } = content;
 
     const sendEmail = (e, form) => {
@@ -23,7 +24,7 @@ const SendEmail = (props) => {
 
     return (
         <form ref={form} onSubmit={(e) => sendEmail(e, form)} data-aos='fade-up' className='flex-1 flex flex-col gap-5'>
-            <h4>{emails.title}</h4>
+            {isTitle && <h4>{emails.title}</h4>}
             <input type='text' name='from_name' placeholder='Name' required className='border border-slate-600 p-3 rounded' />
             <input
                 type='email'
@@ -36,9 +37,11 @@ const SendEmail = (props) => {
             <textarea name='message' placeholder='Message' className='border border-slate-600 p-3 rounded h-44' required></textarea>
             <div className='flex justify-between'>
                 <button className='btn self-start bg-white text-dark_primary'>{emails.submit}</button>
-                <button onClick={props.closeModal} className='btn'>
-                    {emails.close}
-                </button>
+                {isTitle && (
+                    <button onClick={closeModal} className='btn'>
+                        {emails.close}
+                    </button>
+                )}
             </div>
         </form>
     );
