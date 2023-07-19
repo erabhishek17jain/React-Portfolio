@@ -18,7 +18,7 @@ npm run dev
 + and more....
 
 ## live preview link
-[Demo](https://erabhishek17jain.netlify.app/)
+[Demo](https://abhijsagar.netlify.app/)
 
 ## Startup repository link
-[Repository](https://github.com/erabhishek17jain/react-portfolio)
+[Repository](https://github.com/abhijsagar/react-portfolio)
