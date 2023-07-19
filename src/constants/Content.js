@@ -367,7 +367,7 @@ export const content = {
                 image: project2,
                 github: 'https://github.com/abhijsagar/Next-SuperBio',
                 liveUrl: 'https://super-bio.netlify.app/',
-                description: "The portfolio creator website app is a powerful tool designed to help individuals and professionals showcase their work, talents, and accomplishments in an impressive and visually appealing manner. With user-friendly features and customizable templates, users can effortlessly create their own portfolio websites to highlight their skills, projects, and experiences. Whether you're an artist, designer, photographer, writer, or job seeker, this app offers a diverse range of layout options, fonts, and color schemes to suit your unique style and personality. The intuitive drag-and-drop interface allows users to easily upload and arrange images, videos, and text, creating a captivating online portfolio that captures the attention of potential clients, employers, or collaborators.",
+                description: "The portfolio creator website app is a powerful tool designed to help individuals and professionals showcase their work, talents, and accomplishments in an impressive and visually appealing manner. With user-friendly features and customizable templates, users can effortlessly create their own portfolio websites to highlight their skills, projects, and experiences. Whether you're an artist, designer, photographer, writer, or job seeker, this app offers a diverse range of layout options, fonts, and color schemes to suit your unique style and personality.",
             },
             {
                 title: 'TMU College Portal',
