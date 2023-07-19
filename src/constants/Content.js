@@ -12,6 +12,7 @@ import cpp from '../assets/images/skills/cpp.png';
 import java from '../assets/images/skills/java.png';
 import git from '../assets/images/skills/git.png';
 import aws from '../assets/images/skills/aws.png';
+import next from '../assets/images/skills/nextjs.png';
 import ps from '../assets/images/skills/ps.png';
 import bootstrap from '../assets/images/skills/bootstrap.svg';
 import jenkins from '../assets/images/skills/jenkins.png';
@@ -24,22 +25,20 @@ import services_logo3 from '../assets/images/services/logo3.png';
 import services_logo4 from '../assets/images/services/logo4.png';
 import services_logo5 from '../assets/images/services/logo5.png';
 
-import project1 from '../assets/images/projects/img1.png';
-import project2 from '../assets/images/projects/img2.png';
-import project3 from '../assets/images/projects/img3.png';
+import project1 from '../assets/images/projects/omjin-shop.png';
+import project2 from '../assets/images/projects/super-bio.png';
+import project3 from '../assets/images/projects/tmu-college.png';
 import person_project from '../assets/images/projects/person1.png';
 
 import avatar1 from '../assets/images/testimonials/avatar1.png';
 import avatar2 from '../assets/images/testimonials/avatar2.png';
-import avatar3 from '../assets/images/testimonials/avatar3.png';
-import avatar4 from '../assets/images/testimonials/avatar4.png';
 
 import hireme_person from '../assets/images/hireme/person2.png';
 import hireme_person2 from '../assets/images/hireme/person1.png';
 
 import { GrMail } from 'react-icons/gr';
 import { MdArrowForward, MdCall } from 'react-icons/md';
-import { BsInstagram, BsFacebook, BsLinkedin, BsGithub } from 'react-icons/bs';
+import { BsFacebook, BsLinkedin, BsGithub } from 'react-icons/bs';
 import { TbSmartHome } from 'react-icons/tb';
 import { BiUser } from 'react-icons/bi';
 import { SiUpwork } from 'react-icons/si';
@@ -131,15 +130,14 @@ export const content = {
                     ],
                 },
                 {
-                    name: 'Bootstrap 4 | 5',
-                    para: 'with AJAX concepts | Rest APIs',
-                    logo: bootstrap,
+                    name: 'Next Js',
+                    para: 'with SEO | Rest APIs calls',
+                    logo: next,
                     more: [
-                        'Bootstrap makes responsive web design a reality',
-                        'Develop a responsive and mobile friendly website',
-                        'It has much pre-design class',
-                        'Anybody with just basic knowledge of HTML and CSS can start using Bootstrap.',
-                        'It is a front-end framework used for easier and faster web development.',
+                        'Search Engine Optimization',
+                        'Server-side rendering and generating static websites',
+                        'Next.js enables you to create full-stack Web applications.',
+                        'Since streaming is server-rendered, it does not impact SEO.',
                     ],
                 },
                 {
@@ -155,9 +153,9 @@ export const content = {
                     ],
                 },
                 {
-                    name: 'CSS3 | SCSS | LESS',
+                    name: 'Bootstrap 4 | 5 | CSS3 | SCSS | LESS',
                     para: 'with Responsive',
-                    logo: css,
+                    logo: bootstrap,
                     more: [
                         'It  provides a consistent and precise positioning of navigable elements.',
                         'It is easy to customize a web page as it can be done by merely altering a modular file.',
@@ -359,31 +357,24 @@ export const content = {
             {
                 title: 'OmJin Shop',
                 image: project1,
-                github: 'https://github.com/erabhishek17jain/MERN-Omjinshop',
+                github: 'https://github.com/abhijsagar/MERN-Omjinshop',
                 liveUrl: 'https://omjinshop.netlify.app/',
                 description:
                     'An OmJin Shop is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service. We Use main application for user to View & Select Products, Add to Cart, Wishlist, Place Order etc. And we use Admin Panel to manage stocks and perform action once order is placeed or return request is generated.',
             },
             {
-                title: 'TMU Management App',
-                image: project1,
-                github: 'https://github.com/erabhishek17jain/mern-college-management',
-                liveUrl: 'https://tmu.netlify.app/',
-                description: 'This application manages the college information, student information, placement information, various different types of event going on in our college. It also keeps track records of all the information regarding students those who are placed in the various organization. It is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely, and handle enquiries etc.',
+                title: 'SuperBio',
+                image: project2,
+                github: 'https://github.com/abhijsagar/Next-SuperBio',
+                liveUrl: 'https://super-bio.netlify.app/',
+                description: "The portfolio creator website app is a powerful tool designed to help individuals and professionals showcase their work, talents, and accomplishments in an impressive and visually appealing manner. With user-friendly features and customizable templates, users can effortlessly create their own portfolio websites to highlight their skills, projects, and experiences. Whether you're an artist, designer, photographer, writer, or job seeker, this app offers a diverse range of layout options, fonts, and color schemes to suit your unique style and personality. The intuitive drag-and-drop interface allows users to easily upload and arrange images, videos, and text, creating a captivating online portfolio that captures the attention of potential clients, employers, or collaborators.",
             },
             {
-                title: 'Shopping Application',
-                image: project1,
-                github: 'https://github.com/erabhishek17jain/react-shopping-app',
-                liveUrl: 'https://shopping.netlify.app/',
-                description: 'Shopping apps are designed to make it easy for customers to find and buy the products they need. They also allow you to purchase items faster by allowing customers to save payment info and make in-app payments by logging into an account. It is a form of electronic commerce where the buyer is directly online to the sellers computer usually via the internet. There is no intermediary service. The sale and purchase transaction is completed electronically and interactively in real-time such as Amazon.com for new books',
-            },
-            {   
-                title: 'Burger Builder',
-                image: project1,
-                github: 'https://github.com/erabhishek17jain/react-burger-builder',
-                liveUrl: 'https://burgerbuilder.netlify.app/',
-                description: 'A webiste to order and make a burger of your choice. You can customize our burger and place order to vendor.',
+                title: 'TMU College Portal',
+                image: project3,
+                github: 'https://github.com/abhijsagar/MERN-College-Management',
+                liveUrl: 'https://tmu-college.netlify.app/',
+                description: 'This application manages the college information, student information, placement information, various different types of event going on in our college. It also keeps track records of all the information regarding students those who are placed in the various organization. It is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely, and handle enquiries etc.',
             },
         ],
     },

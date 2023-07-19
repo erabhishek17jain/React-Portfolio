@@ -38,10 +38,10 @@ const Projects = () => {
                                         <div className='mt-2'>{content?.description}</div>
                                     </div>
                                     <div className='flex justify-between mt-6'>
-                                        <a href={content.github} className='btn mr-5'>
+                                        <a href={content.github} target='_blank' className='btn mr-5'>
                                             {projects.githubText}
                                         </a>
-                                        <a href={content.liveUrl} className='btn'>
+                                        <a href={content.liveUrl} target='_blank' className='btn'>
                                             {projects.liveUrlText}
                                         </a>
                                     </div>
