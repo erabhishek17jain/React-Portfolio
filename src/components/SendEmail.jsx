@@ -23,7 +23,7 @@ const SendEmail = (props) => {
     };
 
     return (
-        <form ref={form} onSubmit={(e) => sendEmail(e, form)} data-aos='fade-up' className='flex-1 flex flex-col gap-5'>
+        <form ref={form} onSubmit={(e) => sendEmail(e, form)} className='flex-1 flex flex-col gap-5'>
             {isTitle && <h4>{emails.title}</h4>}
             <input type='text' name='from_name' placeholder='Name' required className='border border-slate-600 p-3 rounded' />
             <input

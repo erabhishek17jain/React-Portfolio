@@ -35,9 +35,9 @@ const Projects = () => {
                                 <div className='flex flex-col gap-1 mt-4 justify-between' style={{ height: '350px' }}>
                                     <div>
                                         <h5 className='font-bold font-Poppins'>{content.title}</h5>
-                                        <div className='mt-2'>{content?.description}</div>
+                                        <div className='mt-2 h-64 overflow-y-scroll'>{content?.description}</div>
                                     </div>
-                                    <div className='flex justify-between mt-6'>
+                                    <div className='flex justify-between mt-4'>
                                         <a href={content.github} target='_blank' className='btn mr-5'>
                                             {projects.githubText}
                                         </a>

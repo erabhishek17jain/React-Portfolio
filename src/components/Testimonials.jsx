@@ -41,10 +41,10 @@ const Testimonials = () => {
                                 }`}>
                                 <img src={content.img} alt='...' className='h-24' />
                                 <div>
-                                    <p className='sm:text-base text-sm'>{content.review}</p>
+                                    <p className='sm:text-base text-sm h-25 overflow-y-scroll'>{content.review}</p>
                                     <br />
-                                    <div className='flex justify-between'>
-                                        <h5>{content.name}</h5>
+                                    <div className='flex flex-col sm:flex-row items-center justify-between'>
+                                        <h5 className='mb-2'>{content.name}</h5>
                                         <h6>
                                             <i>Product: </i>
                                             {content.product}

@@ -1,4 +1,4 @@
-import { useState, createElement } from 'react';
+import { useState } from 'react';
 import { content } from '../constants/Content';
 import Modal from 'react-modal';
 import SendEmail from './SendEmail';
@@ -7,7 +7,7 @@ import { customStyles } from '../services/services';
 Modal.setAppElement('#root');
 
 const Hero = () => {
-    const { hero, contact } = content;
+    const { hero } = content;
     const [modalIsOpen, setIsOpen] = useState(false);
 
     function openModal() {
