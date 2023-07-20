@@ -18,6 +18,15 @@ import bootstrap from '../assets/images/skills/bootstrap.svg';
 import jenkins from '../assets/images/skills/jenkins.png';
 import vscode from '../assets/images/skills/vscode.png';
 
+import threeg from '../assets/images/aboutme/3g.jpeg';
+import gigamon from '../assets/images/aboutme/gigamon.png';
+import gl from '../assets/images/aboutme/gl.png';
+import google from '../assets/images/aboutme/google.png';
+import hcl from '../assets/images/aboutme/hcl.jpeg';
+import ibm from '../assets/images/aboutme/ibm.png';
+import newgen from '../assets/images/aboutme/newgen.jpeg';
+import reppify from '../assets/images/aboutme/reppify.png';
+
 import services_logo1 from '../assets/images/services/logo1.png';
 import services_logo2 from '../assets/images/services/logo2.png';
 import services_logo3 from '../assets/images/services/logo3.png';
@@ -78,7 +87,7 @@ export const content = {
         {
             link: '#contact',
             icon: MdOutlinePermContactCalendar,
-        }
+        },
     ],
     hero: {
         title: 'Web Developer',
@@ -397,10 +406,66 @@ export const content = {
         title: 'About Me',
         subtitle: 'Who I am',
         description: [
-            { title: 'Hello! I am a MERN stack developer, and my passion lies in crafting dynamic and innovative web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I am well-equipped to tackle the full stack of web development. As an enthusiastic front-end developer, I thrive on creating intuitive and user-friendly interfaces using React.js. ' },
-            { title: 'I enjoy breaking down complex UI structures into reusable components, ensuring a seamless and engaging user experience. On the back-end, I am proficient in building robust and scalable server applications using Node.js and Express.js. I love the challenge of handling server-side logic, managing databases, and ensuring smooth communication between the front-end and back-end. ' },
-            { title: 'With MongoDB as my go-to database, I am adept at working with JSON-like documents and handling large volumes of unstructured data effectively. This allows me to develop data-driven applications with ease. As a MERN stack developer, I am committed to staying updated with the latest web development trends and best practices. I believe in continuous learning and always seek opportunities to enhance my skills and knowledge. ' },
-            { title: "Collaborating with cross-functional teams and turning ideas into reality brings me immense satisfaction. My goal is to create meaningful and impactful web applications that cater to the needs of users and deliver a seamless online experience. I am excited to tackle new challenges and contribute my expertise to create cutting-edge web solutions. Let's build something amazing together!" },
+            {
+                title: 'Hello! I am a MERN stack developer, and my passion lies in crafting dynamic and innovative web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I am well-equipped to tackle the full stack of web development. As an enthusiastic front-end developer, I thrive on creating intuitive and user-friendly interfaces using React.js. ',
+            },
+            {
+                title: 'I enjoy breaking down complex UI structures into reusable components, ensuring a seamless and engaging user experience. On the back-end, I am proficient in building robust and scalable server applications using Node.js and Express.js. I love the challenge of handling server-side logic, managing databases, and ensuring smooth communication between the front-end and back-end. ',
+            },
+            {
+                title: 'With MongoDB as my go-to database, I am adept at working with JSON-like documents and handling large volumes of unstructured data effectively. This allows me to develop data-driven applications with ease. As a MERN stack developer, I am committed to staying updated with the latest web development trends and best practices. I believe in continuous learning and always seek opportunities to enhance my skills and knowledge. ',
+            },
+            {
+                title: "Collaborating with cross-functional teams and turning ideas into reality brings me immense satisfaction. My goal is to create meaningful and impactful web applications that cater to the needs of users and deliver a seamless online experience. I am excited to tackle new challenges and contribute my expertise to create cutting-edge web solutions. Let's build something amazing together!",
+            },
+        ],
+        exSubtitle: 'Previous Experience',
+        exTitle: 'Web Development | Mobile Application Development',
+        exp_content: [
+            {
+                company: hcl,
+                client: gigamon,
+                companyName: 'HCL Technologies Pvt. Ltd',
+                position: 'Lead Engineer',
+                duration: 'Oct 2021 - Present',
+                client_name: 'Gigamon Pvt. Ltd',
+                proj_name: 'GigaVUE',
+                proj_detail:
+                    'GigaVUE-OS is a modularly designed operating system that offers the full range of Gigamon Hawk capabilities, including: Core Intelligence: Flow Mapping®, GigaStream, Clustering, Fabric Maps, Header Stripping, Tunneling, Inline Bypass. Traffic Intelligence. Application Intelligence. GigaVUE-FM fabric Hawk Deep Observability Pipeline, with unified visibility across physical, virtual, and multi-cloud deployments. Its intent-based policy automation approach enables NetOps, SecOps, and CloudOps teams to be more efficient at creating and deploying policies at scale based on their roles. A centralized, rich, and customizable dashboard provides easy-to-use programmable APIs for ease of integration with tools and SDN controllers, role-based access control, end-to-end topology visualization, simplified workflows, external SNMP support, and alarm management to reduce mean time to resolution.',
+            },
+            {
+                company: threeg,
+                client: newgen,
+                companyName: '3G Solutions Pvt. Ltd',
+                position: 'Sr. Software Engineer',
+                duration: 'Sept 2020 - Oct 2021',
+                client_name: 'Newgen Software Pvt. Ltd',
+                proj_name: 'OmniNewgenOfficeAddIns',
+                proj_detail:
+                    'OmniNewgenOfficeAddIns client is provided as Add-Ins on Newgen OmniDocs, which enables uploading of documents from MS Office applications directly. The Newgen product (OmniDocs) will open in MS Office directly, which is developed in ReactJS + Redux for front end & Java as backend. OmniNewgenOfficeAddIns client also facilitates the uploading of documents using Newgen Forms. Users can upload documents to the Newgen OmniDocs folder through various MS Office applications. I worked on the UI part of this project using React and Redux as framework.',
+            },
+            {
+                company: reppify,
+                client: ibm,
+                companyName: 'Reppify Pvt. Ltd',
+                position: 'Software Engineer',
+                duration: 'Apr 2018 - Sep 2020',
+                client_name: 'IBM Corp. & Infosys Pvt. Ltd',
+                proj_name: 'Referral Portal',
+                proj_detail:
+                    'We have developed a Web Application for Infosys Recruitment Process. In this system, Super admin, Admin Recruiter, HR Recruiter, Employee, and Candidate are the main roles. In this system, there are also Super admin, Admin Recruiter, HR Recruiter, Employee, and Candidate are the main roles. In this system, Super Admin will enroll an Admin recruiter and an Admin recruiter will create jobs for in particular country and the HR recruiter will enroll employees who will upload his/her LinkedIn/Facebook/Twitter contacts the account for whom we do the scoring and matching process and find out, contacts that are most suitable for the job. Once matching is done, the HR recruiter can see those connections on her account as well and send a request to the employee to invite that candidate to apply for the job. Jobs have referral bonuses as well, which goes to the employee.',
+            },
+            {
+                company: gl,
+                client: google,
+                companyName: 'Global Logic Pvt. Ltd',
+                position: 'Associate Analyst',
+                duration: 'Aug 2017 - Apr 2018',
+                client_name: 'Google Corp.',
+                proj_name: 'Google Shopping Engine',
+                proj_detail:
+                    'This is a web-based shopping engine. It includes millions of products and includes different product categories and its subcategories, like household, beauty products, different types of Paints, Pesticides/Insecticides, etc. We need to categorize the products based on their use.',
+            }
         ],
     },
     testimonials: {

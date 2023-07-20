@@ -2,7 +2,6 @@ import { content } from '../constants/Content';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 import { Pagination } from 'swiper';
 import { useState } from 'react';
 
@@ -20,6 +19,7 @@ const Testimonials = () => {
                 </h4>
                 <br />
                 <Swiper
+                    centeredSlides={true}
                     direction={'vertical'}
                     pagination={{
                         clickable: true,
@@ -29,7 +29,6 @@ const Testimonials = () => {
                     spaceBetween={40}
                     slidesPerView={1.7}
                     onSlideChange={(e) => {
-                        console.log(e.realIndex);
                         setActiveIndex(e.realIndex);
                     }}
                     modules={[Pagination]}
