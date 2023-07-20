@@ -19,7 +19,7 @@ const Hireme = () => {
     }
 
     return (
-        <section className='bg-bg_light_primary'>
+        <section className='bg-bg_light_primary' id='hireme'>
             <div className='md:container px-5 pt-14'>
                 <h2 className='title' data-aos='fade-down'>
                     {hireme.title}

@@ -16,7 +16,6 @@ import next from '../assets/images/skills/nextjs.png';
 import ps from '../assets/images/skills/ps.png';
 import bootstrap from '../assets/images/skills/bootstrap.svg';
 import jenkins from '../assets/images/skills/jenkins.png';
-import css from '../assets/images/skills/css.png';
 import vscode from '../assets/images/skills/vscode.png';
 
 import services_logo1 from '../assets/images/services/logo1.png';
@@ -30,6 +29,7 @@ import project2 from '../assets/images/projects/super-bio.png';
 import project3 from '../assets/images/projects/tmu-college.png';
 import person_project from '../assets/images/projects/person1.png';
 
+import profile from '../assets/images/testimonials/profile.jpg';
 import avatar1 from '../assets/images/testimonials/avatar1.png';
 import avatar2 from '../assets/images/testimonials/avatar2.png';
 
@@ -40,11 +40,11 @@ import { GrMail } from 'react-icons/gr';
 import { MdArrowForward, MdCall } from 'react-icons/md';
 import { BsFacebook, BsLinkedin, BsGithub } from 'react-icons/bs';
 import { TbSmartHome } from 'react-icons/tb';
-import { BiUser } from 'react-icons/bi';
+import { BiUser, BiAtom } from 'react-icons/bi';
+import { FaHireAHelper } from 'react-icons/fa';
 import { SiUpwork } from 'react-icons/si';
-import { RiServiceLine, RiProjectorLine } from 'react-icons/ri';
+import { RiServiceLine, RiProjectorLine, RiProfileFill } from 'react-icons/ri';
 import { MdOutlinePermContactCalendar } from 'react-icons/md';
-
 export const content = {
     nav: [
         {
@@ -52,8 +52,12 @@ export const content = {
             icon: TbSmartHome,
         },
         {
-            link: '#skills',
+            link: '#aboutme',
             icon: BiUser,
+        },
+        {
+            link: '#skills',
+            icon: BiAtom,
         },
         {
             link: '#services',
@@ -64,9 +68,17 @@ export const content = {
             icon: RiProjectorLine,
         },
         {
+            link: '#testimonial',
+            icon: RiProfileFill,
+        },
+        {
+            link: '#hireme',
+            icon: FaHireAHelper,
+        },
+        {
             link: '#contact',
             icon: MdOutlinePermContactCalendar,
-        },
+        }
     ],
     hero: {
         title: 'Web Developer',
@@ -367,15 +379,28 @@ export const content = {
                 image: project2,
                 github: 'https://github.com/abhijsagar/Next-SuperBio',
                 liveUrl: 'https://super-bio.netlify.app/',
-                description: "The portfolio creator website app is a powerful tool designed to help individuals and professionals showcase their work, talents, and accomplishments in an impressive and visually appealing manner. With user-friendly features and customizable templates, users can effortlessly create their own portfolio websites to highlight their skills, projects, and experiences. Whether you're an artist, designer, photographer, writer, or job seeker, this app offers a diverse range of layout options, fonts, and color schemes to suit your unique style and personality.",
+                description:
+                    "The portfolio creator website app is a powerful tool designed to help individuals and professionals showcase their work, talents, and accomplishments in an impressive and visually appealing manner. With user-friendly features and customizable templates, users can effortlessly create their own portfolio websites to highlight their skills, projects, and experiences. Whether you're an artist, designer, photographer, writer, or job seeker, this app offers a diverse range of layout options, fonts, and color schemes to suit your unique style and personality.",
             },
             {
                 title: 'TMU College Portal',
                 image: project3,
                 github: 'https://github.com/abhijsagar/MERN-College-Management',
                 liveUrl: 'https://tmu-college.netlify.app/',
-                description: 'This application manages the college information, student information, placement information, various different types of event going on in our college. It also keeps track records of all the information regarding students those who are placed in the various organization. It is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely, and handle enquiries etc.',
+                description:
+                    'This application manages the college information, student information, placement information, various different types of event going on in our college. It also keeps track records of all the information regarding students those who are placed in the various organization. It is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely, and handle enquiries etc.',
             },
+        ],
+    },
+    aboutMe: {
+        image: profile,
+        title: 'About Me',
+        subtitle: 'Who I am',
+        description: [
+            { title: 'Hello! I am a MERN stack developer, and my passion lies in crafting dynamic and innovative web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I am well-equipped to tackle the full stack of web development. As an enthusiastic front-end developer, I thrive on creating intuitive and user-friendly interfaces using React.js. ' },
+            { title: 'I enjoy breaking down complex UI structures into reusable components, ensuring a seamless and engaging user experience. On the back-end, I am proficient in building robust and scalable server applications using Node.js and Express.js. I love the challenge of handling server-side logic, managing databases, and ensuring smooth communication between the front-end and back-end. ' },
+            { title: 'With MongoDB as my go-to database, I am adept at working with JSON-like documents and handling large volumes of unstructured data effectively. This allows me to develop data-driven applications with ease. As a MERN stack developer, I am committed to staying updated with the latest web development trends and best practices. I believe in continuous learning and always seek opportunities to enhance my skills and knowledge. ' },
+            { title: "Collaborating with cross-functional teams and turning ideas into reality brings me immense satisfaction. My goal is to create meaningful and impactful web applications that cater to the needs of users and deliver a seamless online experience. I am excited to tackle new challenges and contribute my expertise to create cutting-edge web solutions. Let's build something amazing together!" },
         ],
     },
     testimonials: {
@@ -449,5 +474,3 @@ export const content = {
         text: 'All © Copy Right Reserved 2023',
     },
 };
-
-export const aboutMe = "Hello! I am a MERN stack developer, and my passion lies in crafting dynamic and innovative web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I am well-equipped to tackle the full stack of web development. As an enthusiastic front-end developer, I thrive on creating intuitive and user-friendly interfaces using React.js. I enjoy breaking down complex UI structures into reusable components, ensuring a seamless and engaging user experience. On the back-end, I am proficient in building robust and scalable server applications using Node.js and Express.js. I love the challenge of handling server-side logic, managing databases, and ensuring smooth communication between the front-end and back-end. With MongoDB as my go-to database, I am adept at working with JSON-like documents and handling large volumes of unstructured data effectively. This allows me to develop data-driven applications with ease. As a MERN stack developer, I am committed to staying updated with the latest web development trends and best practices. I believe in continuous learning and always seek opportunities to enhance my skills and knowledge. Collaborating with cross-functional teams and turning ideas into reality brings me immense satisfaction. My goal is to create meaningful and impactful web applications that cater to the needs of users and deliver a seamless online experience. I am excited to tackle new challenges and contribute my expertise to create cutting-edge web solutions. Let's build something amazing together!"

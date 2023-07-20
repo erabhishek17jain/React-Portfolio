@@ -1,5 +1,6 @@
 import Navbar from './Layouts/Navbar';
 import Hero from './components/Hero';
+import Aboutme from './components/Aboutme';
 import Skills from './components/Skills';
 import Service from './components/Services';
 import Projects from './components/Projects';
@@ -23,6 +24,7 @@ const App = () => {
         <div className=''>
             <Navbar />
             <Hero />
+            <Aboutme />
             <Skills />
             <Service />
             <Projects />
