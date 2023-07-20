@@ -47,7 +47,7 @@ import hireme_person2 from '../assets/images/hireme/person1.png';
 
 import { GrMail } from 'react-icons/gr';
 import { MdArrowForward, MdCall } from 'react-icons/md';
-import { BsFacebook, BsLinkedin, BsGithub } from 'react-icons/bs';
+import { BsFacebook, BsLinkedin, BsGithub, BsWhatsapp } from 'react-icons/bs';
 import { TbSmartHome } from 'react-icons/tb';
 import { BiUser, BiAtom } from 'react-icons/bi';
 import { FaHireAHelper } from 'react-icons/fa';
@@ -473,13 +473,13 @@ export const content = {
         subtitle: 'MY CLIENT REVIEWS',
         testimonials_content: [
             {
-                review: '“We had a great experience while connecting with your team, your members are too supportive. I am very satisfied with your service.”',
+                review: 'We had a great experience while connecting with your team, your members are too supportive. I am very satisfied with your service.',
                 img: avatar1,
                 name: 'Rajat Singhai',
                 product: 'Omjin Shop',
             },
             {
-                review: '“We are searching for a technical team who help me to grow our business by creating a website for us on which we sell our products, and we found you. Thank You!”',
+                review: 'We are searching for a technical team who help me to grow our business by creating a website for us on which we sell our products, and we found you. Thank You!',
                 img: avatar2,
                 name: 'Mayank Jain',
                 product: 'Omjin Shop',
@@ -500,6 +500,8 @@ export const content = {
     contact: {
         title: 'Contact Me',
         subtitle: 'GET IN TOUCH',
+        followUs: 'FOLLOW US ON',
+        visitUs: 'VISIT OUR OFFICE',
         submit: 'Submit',
         social_media: [
             {
@@ -511,6 +513,11 @@ export const content = {
                 text: '+91 7047026537',
                 icon: MdCall,
                 link: 'https://wa.link/wadcmz',
+            },
+            {
+                text: '+91 7047026537',
+                icon: BsWhatsapp,
+                link: 'https://wa.link/uab6i0',
             },
             {
                 text: 'abhijsagar',
