@@ -378,7 +378,7 @@ export const content = {
             {
                 title: 'OmJin Shop',
                 image: project1,
-                github: 'https://github.com/abhijsagar/MERN-Omjinshop',
+                github: 'https://github.com/erabhishek17jain/MERN-Omjinshop',
                 liveUrl: 'https://omjinshop.netlify.app/',
                 description:
                     'An OmJin Shop is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service. We Use main application for user to View & Select Products, Add to Cart, Wishlist, Place Order etc. And we use Admin Panel to manage stocks and perform action once order is placeed or return request is generated.',
@@ -386,7 +386,7 @@ export const content = {
             {
                 title: 'SuperBio',
                 image: project2,
-                github: 'https://github.com/abhijsagar/Next-SuperBio',
+                github: 'https://github.com/erabhishek17jain/Next-SuperBio',
                 liveUrl: 'https://super-bio.netlify.app/',
                 description:
                     "The portfolio creator website app is a powerful tool designed to help individuals and professionals showcase their work, talents, and accomplishments in an impressive and visually appealing manner. With user-friendly features and customizable templates, users can effortlessly create their own portfolio websites to highlight their skills, projects, and experiences. Whether you're an artist, designer, photographer, writer, or job seeker, this app offers a diverse range of layout options, fonts, and color schemes to suit your unique style and personality.",
@@ -394,7 +394,7 @@ export const content = {
             {
                 title: 'TMU College Portal',
                 image: project3,
-                github: 'https://github.com/abhijsagar/MERN-College-Management',
+                github: 'https://github.com/erabhishek17jain/MERN-College-Management',
                 liveUrl: 'https://tmu-college.netlify.app/',
                 description:
                     'This application manages the college information, student information, placement information, various different types of event going on in our college. It also keeps track records of all the information regarding students those who are placed in the various organization. It is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely, and handle enquiries etc.',
@@ -520,17 +520,17 @@ export const content = {
                 link: 'https://wa.link/uab6i0',
             },
             {
-                text: 'abhijsagar',
+                text: 'erabhishek17jain',
                 icon: BsLinkedin,
-                link: 'https://www.linkedin.com/in/abhijsagar/',
+                link: 'https://www.linkedin.com/in/erabhishek17jain/',
             },
             {
-                text: 'abhijsagar',
+                text: 'erabhishek17jain',
                 icon: BsGithub,
-                link: 'https://github.com/abhijsagar/',
+                link: 'https://github.com/erabhishek17jain/',
             },
             {
-                text: 'abhijsagar',
+                text: 'erabhishek17jain',
                 icon: SiUpwork,
                 link: 'https://www.upwork.com/freelancers/~011b5cb8bb2f19e025',
             },
